@@ -2,8 +2,9 @@ const startBtn = document.getElementById("startBtn");
 const chatBox = document.getElementById("chatBox");
 
 // ✅ API Keys
-const elevenLabsApiKey = "sk_9b530b4fdd57af60203717c82abf3d8e486c0904c2bad200";
-const geminiApiKey = "AIzaSyD5IBXsERW_W1CWqrC-d2R8lRObYh-K4ow";
+const elevenLabsApiKey = CONFIG.ELEVENLABS_API_KEY;
+const geminiApiKey = CONFIG.GEMINI_API_KEY;
+
 
 // 🎤 Speech-to-Text Function
 function captureSpeech() {
