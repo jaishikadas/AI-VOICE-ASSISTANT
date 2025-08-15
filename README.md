@@ -43,16 +43,15 @@ const geminiApiKey = "YOUR_GEMINI_API_KEY";
 
 Simply open index.html in your browser.
 
-##🎯 How to Use
+## 🎯How to Use
 
 Click on "🎤 Start Talking".
 Speak your question or command.
 The AI will process your speech, display the response in the chat, and read it aloud.
-📸 Screenshot
+<img width="1132" height="577" alt="image" src="https://github.com/user-attachments/assets/67662c5b-dc0d-45ee-b72b-e9bd6b1c5ece" />
 
-(Add a screenshot of your UI here)
 
-##⚠️ Notes
+## ⚠️ Notes
 This project requires an internet connection to call the APIs.
 Speech recognition works best in Chrome and Edge.
 Keep your API keys private and never commit them to public repositories.
